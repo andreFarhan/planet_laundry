@@ -1,0 +1,25 @@
+RewriteEngine on
+
+RewriteRule ^index index.php [NC,L]
+RewriteRule ^formlogin login_form.php [NC,L]
+RewriteRule ^laundry_show laundry_show.php [NC,L]
+RewriteRule ^buku_panduan buku_panduan.php [NC,L]
+
+RewriteRule ^outlet_show outlet_show.php [NC,L]
+RewriteRule ^outlet_tambah outlet_tambah.php [NC,L]
+
+RewriteRule ^user_show user_show.php [NC,L]
+RewriteRule ^user_tambah user_tambah.php [NC,L]
+
+RewriteRule ^paket_show paket_show.php [NC,L]
+RewriteRule ^paket_tambah paket_tambah.php [NC,L]
+
+RewriteRule ^member_show member_show.php [NC,L]
+RewriteRule ^member_tambah member_tambah.php [NC,L]
+
+RewriteRule ^transaksi_show transaksi_show.php [NC,L]
+RewriteRule ^transaksi_tambah transaksi_tambah.php [NC,L]
+
+RewriteRule ^laporan_penghasilan laporan_penghasilan.php [NC,L]
+
+RewriteRule ^logout logout.php [NC,L]
